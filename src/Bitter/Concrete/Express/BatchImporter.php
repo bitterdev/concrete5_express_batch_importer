@@ -10,7 +10,7 @@
 
 namespace Bitter\Concrete\Express;
 
-use \Concrete\Core\Support\Facade\Application;
+use Concrete\Core\Support\Facade\Application;
 use \parseCSV;
 
 // No associations supported

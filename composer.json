@@ -1,0 +1,20 @@
+{
+    "name": "bitter/concrete5-express-batch-importer",
+    "description": "conrete5 Express Batch Importer",
+    "license": "MIT",
+    "keywords": ["concrete5", "express", "objects", "import", "bulk", "batch", "entity", "row", "table", "data", "csv"],
+    "authors": [
+        {
+            "name": "Fabian Bitter",
+            "email": "fabian@bitter.de"
+        }
+    ],
+    "require": {
+        "parsecsv/php-parsecsv": "0.4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bitter\\Concrete\\Express\\": "src/Bitter/Concrete/Express"
+        }
+    }
+}
